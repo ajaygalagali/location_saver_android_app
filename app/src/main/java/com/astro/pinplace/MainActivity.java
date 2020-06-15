@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     static ArrayList<String> longitudeList = new ArrayList<String>();
     static  ArrayAdapter<String> arrayAdapter;
 
-
+ //Pin Location App
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
